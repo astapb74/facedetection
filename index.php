@@ -7,10 +7,10 @@
             text-shadow: 9px 11px 26px black;
         }
         img {
-            border: 1px solid black;
+            border: 0px solid white;
             padding: 5px;
             background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-            animation: shadow  2s infinite ease-in-out;
+            animation: shadow  5s infinite ease-in-out;
         }
         #o1 img {
             margin-left: 3em;
