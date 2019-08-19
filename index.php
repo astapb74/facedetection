@@ -1,6 +1,7 @@
+<?php $title = 'Тест на распознавание лиц'; ?>
 <html>
 <head>
-    <title>Тест на распознавание лиц</title>
+    <title><?= $title ?></title>
     <style>
         h1 {
             margin-bottom: 2em;
@@ -27,7 +28,7 @@
     </style>
 </head>
 <body>
-<h1>Тест на распознавание лиц</h1>
+<h1><?= $title ?></h1>
     <a id="o1" target="_blanck" href="img.php?name=hZpip1ADYvw.jpg">
         <img width="300" src="img.php?name=hZpip1ADYvw.jpg">
     </a>
